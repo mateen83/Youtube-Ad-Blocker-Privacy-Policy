@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Privacy Policy — YouTube Ad Blocker</title>
+
+  <style>
+    :root{
+      --bg:#f7f9fc;
+      --card:#ffffff;
+      --text:#1a2433;
+      --muted:#5b6b7f;
+      --accent:#0D0D0D;
+      --border:#e6eaf0;
+    }
+
+    body{
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+      margin:0;
+      background: var(--bg);
+      color: var(--text);
+      line-height:1.6;
+    }
+
+    .container{
+      max-width:900px;
+      margin:48px auto;
+      padding:32px;
+      background: var(--card);
+      border-radius:12px;
+      border:1px solid var(--border);
+      box-shadow:0 10px 30px rgba(0,0,0,0.05);
+    }
+
+    h1{
+      margin:0 0 8px;
+      font-size:28px;
+    }
+
+    p.lead{
+      color:var(--muted);
+      margin-top:0;
+    }
+
+    h2{
+      color:var(--accent);
+      margin-top:28px;
+    }
+
+    h3{
+      color:#334155;
+    }
+
+    ul{
+      margin-top:8px;
+    }
+
+    code{
+      background:#f1f5f9;
+      padding:2px 6px;
+      border-radius:6px;
+      font-size:0.95em;
+    }
+
+    footer{
+      margin-top:32px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:0.9em;
+      color:var(--muted);
+      border-top:1px solid var(--border);
+      padding-top:16px;
+      text-align:center;
+    }
+
+    a{
+      color:var(--accent);
+      text-decoration:none;
+    }
+
+    .meta{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      margin-top:12px;
+    }
+
+    .meta span{
+      background:#f8fafc;
+      padding:6px 10px;
+      border-radius:8px;
+      color:var(--muted);
+      border:1px solid var(--border);
+    }
+
+    .notice{
+      background:#f8fbff;
+      border:1px solid #dbe8ff;
+      padding:14px 16px;
+      border-radius:10px;
+      color:#355070;
+      margin-top:18px;
+    }
+
+    @media (max-width:640px){
+      .container{
+        margin:16px;
+        padding:20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container" role="main">
+    <h1>Privacy Policy</h1>
+    <p class="lead">
+      This privacy policy explains how <strong>YouTube Ad Blocker</strong> works, what data it handles, and how it uses browser permissions. The extension is designed to be privacy-first and operate only on YouTube pages.
+    </p>
+
+    <div class="meta">
+      <span>Product: YouTube Ad Blocker</span>
+      <span>Version: 1.0.0</span>
+      <span>Effective date: <strong>2026-06-24</strong></span>
+    </div>
+
+    <div class="notice">
+      <strong>Summary:</strong> YouTube Ad Blocker does not collect, store, sell, or transfer personal data. It works locally in your browser and uses only the minimum permissions needed to function on YouTube.
+    </div>
+
+    <h2>Information We Collect</h2>
+    <p>
+      We do not collect personal information, financial information, health information, location data, browsing history, or content from your web activity.
+    </p>
+
+    <p><strong>The extension does not send your data to any external server.</strong></p>
+
+    <h3>Local Data Stored on Your Device</h3>
+    <ul>
+      <li>Your enable/disable preference for the extension</li>
+      <li>A local counter showing how many ads were blocked</li>
+    </ul>
+
+    <p>
+      This information is stored locally using <code>chrome.storage.local</code> and remains on your device.
+    </p>
+
+    <h2>How the Extension Works</h2>
+    <p>
+      YouTube Ad Blocker operates only on YouTube pages. It may hide ad-related elements, detect supported ad placements, and apply browser-side blocking rules to reduce interruptions while you watch videos.
+    </p>
+
+    <p>
+      The extension does not function on unrelated websites and does not read or monitor your browsing activity across the web.
+    </p>
+
+    <h2>Permissions We Use</h2>
+    <ul>
+      <li><code>declarativeNetRequest</code> — Used to apply static browser-side rules that help block ad-related requests on YouTube.</li>
+      <li><code>scripting</code> — Used to run extension scripts on YouTube pages so the extension can detect and manage supported page elements.</li>
+      <li><code>tabs</code> — Used to identify active YouTube tabs so the extension can operate only where needed.</li>
+      <li><code>storage</code> — Used to save your local settings and the blocked-ad counter.</li>
+      <li><code>*.youtube.com/*</code> host access — Used only to run the extension on YouTube pages.</li>
+    </ul>
+
+    <h2>Data Sharing</h2>
+    <p>
+      We do not sell, rent, or share user data with third parties. The extension does not include advertising SDKs, analytics tools, or tracking services.
+    </p>
+
+    <h2>Remote Code</h2>
+    <p>
+      The extension does not use remote code. All scripts, styles, and assets are packaged inside the extension and are included in the version submitted to the Chrome Web Store.
+    </p>
+
+    <h2>Children’s Privacy</h2>
+    <p>
+      The extension is not intended to collect information from children and does not knowingly collect personal data from any user.
+    </p>
+
+    <h2>Changes to This Policy</h2>
+    <p>
+      We may update this privacy policy from time to time. Any changes will be reflected on this page with an updated effective date.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+      If you have questions about this privacy policy, contact us at:
+    </p>
+    <p><a href="mailto:mateen8325@gmail.com">mateen8325@gmail.com</a></p>
+
+    <footer>
+      <p>© 2026 YouTube Ad Blocker by Abdul. All rights reserved.</p>
+    </footer>
+  </main>
+</body>
+</html>
